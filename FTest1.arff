@@ -1,0 +1,38 @@
+`@relation FTest1
+
+
+
+
+@attribute population real
+
+@attribute unemploymentrate real
+
+@attribute area real
+
+@attribute percapitagdp real 
+@attribute crimeindex {High,Medium,Low}
+
+
+
+
+@data
+
+
+
+
+12084304,45,150803,1209,Low
+6597960,18,679358,5659,Medium
+3133318,7,605567,6008,Medium
+34976789,14,919590,6888,Medium
+187566766,19,310401,2345,Medium
+10290003,16,716667,3221,Medium
+51634221,19,325761,7865,Low
+9549390,21,127347,5436,Low
+1303747,12,788,19876,Low
+3460462,24,30193,4576,Low
+3308535,11,68039,9787,Low
+321421145,13,7197432,550,High
+1387823,12,102493,5550,Medium
+185566392,15,946341,9500,Medium
+118250983,19,52004,2885,Low
+105687897,12,120282,17139,Low
