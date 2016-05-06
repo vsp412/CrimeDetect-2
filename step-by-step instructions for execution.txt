@@ -1,0 +1,63 @@
+Step-by-step instructions to run the project.
+
+1. Create a Java GUI application in NetBeans, Eclipse, or
+any IDE of your choice, using the Java code contained within
+Frame1.java and the XML code contained within Frame1.form. If you don't know 
+how to create a Java GUI application, refer to some tutorials or other videos 
+on Youtube or Google.
+Now in the code contained in Frame1.java, you will find these different 
+file paths at various places:
+
+a. E://ProjectResults//naivesbayes.txt
+b. E://ProjectResults//j48.txt
+c. E://ProjectResults//smoreg_values.txt
+d. E://ProjectResults//smoreg_accuracy.txt
+
+There are some more file paths, but I'll come to that later.
+
+Now create a folder on your desktop, and give it a name, eg. ABC.
+Now copy the path of folder ABC, and replace it with these paths above.
+
+Suppose the path of folder ABC is C:/Desktop/ABC, then replace all the 4 links above as 
+follows:
+
+Replace a. with C://Desktop//ABC//naivesbayes.txt
+Replace b. with C://Desktop//ABC//j48.txt
+Replace c. with C://Desktop//ABC//smoreg_values.txt
+Replace d. with C://Desktop//ABC//smoreg_accuracy.txt
+
+Note: You don't have to create the files naivesbayes.txt, j48.txt, etc. in ABC. They will be created automatically
+by your Java code.
+
+Next, download and install Selenium WebDriver, Chromedriver, and Weka, which are some softwares, and copy and add their .jar files into the libraries 
+folder in your NetBeans project. To know how to do this, google it up, there are lots of videos showing you how to add external
+.jar files to your NetBeans project.
+
+
+Now, create a folder XYZ in your desktop. Inside it, move the chromedriver.exe that you just downloaded. Now, replace this statement
+in the Java code : System.setProperty("webdriver.chrome.driver","E:\\store1\\chromedriver.exe");, with this:
+System.setProperty("webdriver.chrome.driver","C:\\Desktop\\XYZ\\chromedriver.exe"); 
+
+Do not run your Java code yet.
+
+
+2. Copy the code given in code.txt into a text editor of your 
+choice or a notepad file and save it as an HTML file, maimap.html, inside the ABC folder.
+(Note: Just copy the code into a text editor and save it as
+an HTML file. But please, DO NOT input 
+any values into the text boxes that get displayed in this HTML 
+file AT ALL. Just save it and keep it.)
+
+Now in your Java code, find the place where you have this path : file:///E:/ProjectResults/mainmap.html
+and replace it with this: file:///C:/Desktop/ABC/mainmap.html or the path of the mainmap.html file obtained by right clicking on the mainmap.html file and going into 'properties', (whichever works)
+
+3. Copy the text of .arff files given, intest2.arff, intrain2.arff, FTrain1.arff, FTest1.arff, into 4 different notepad files respectively, and save each of them as an .arff file
+in the ABC folder.
+Each of their paths should read like : C:/Desktop/ABC/intest2.arff, like this.
+
+4. Now, in order to see how the Java code is run, go to 
+(Note: Folder names and file names are changed in the video, so keep your eyes and brains open while watching the video.)
+
+
+
+3. 
