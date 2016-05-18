@@ -55,9 +55,8 @@ and replace it with this: file:///C:/Desktop/ABC/mainmap.html or the path of the
 in the ABC folder.
 Each of their paths should read like : C:/Desktop/ABC/intest2.arff, like this.
 
-4. Now, in order to see how the Java code is run, go to 
-(Note: Folder names and file names are changed in the video, so keep your eyes and brains open while watching the video.)
+4. A video showing the running of the code will be uploaded shortly, so stay tuned. 
+(Note: Folder names and file names would be changed in the video, so keep your eyes and brains open while watching the video.)
 
 
 
-3. 
